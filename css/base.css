@@ -147,7 +147,7 @@ kbd:has(kbd) {
 
 /* 修改 u-wrapper 的最大宽度 */
 .u-wrapper {
-  max-width: 80rem; /* 增大最大宽度 */
+  max-width: 62rem; /* 增大最大宽度 */
   margin: auto;
 }
 
