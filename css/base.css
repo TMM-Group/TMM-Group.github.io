@@ -58,38 +58,25 @@ kbd:has(kbd) {
   padding: 0;
 }
 
+.Banner-item:nth-child(1) {
+  order: 5;
+}
 
+.Banner-item:nth-child(2) {
+  order: 4;
+}
 
+.Banner-item:nth-child(3) {
+  order: 3;
+}
 
-  .Banner-item:nth-child(1) {
-    order: 5;
-  }
+.Banner-item:nth-child(4) {
+  order: 2;
+}
 
-
-
-  .Banner-item:nth-child(2) {
-    order: 4;
-  }
-
-
-
-  .Banner-item:nth-child(3) {
-    order: 3;
-  }
-
-
-
-  .Banner-item:nth-child(4) {
-    order: 2;
-  }
-
-
-
-  .Banner-item:nth-child(5) {
-    order: 1;
-  }
-
-
+.Banner-item:nth-child(5) {
+  order: 1;
+}
 
 .Banner-item--title {
   flex-grow: 1;
@@ -116,8 +103,6 @@ kbd:has(kbd) {
   color: inherit;
 }
 
-
-
 .Tags {
   list-style: none;
   display: flex;
@@ -137,18 +122,14 @@ kbd:has(kbd) {
   color: white;
 }
 
+.Divider {
+  display: flex;
+  justify-content: center;
+}
 
-
-  .Divider {
-    display: flex;
-    justify-content: center;
-  }
-
-  .Divider::after {
-    content: "\2500\2500";
-  }
-
-
+.Divider::after {
+  content: "\2500\2500";
+}
 
 .Pagination {
   font-size: 1.25rem;
@@ -164,8 +145,9 @@ kbd:has(kbd) {
   margin: 1rem 0;
 }
 
+/* 修改 u-wrapper 的最大宽度 */
 .u-wrapper {
-  max-width: 42rem;
+  max-width: 80rem; /* 增大最大宽度 */
   margin: auto;
 }
 
@@ -186,6 +168,7 @@ kbd:has(kbd) {
 .u-noboosting {
   max-height: 1000000px;
 }
+
 body {
     padding-top: 0 !important;
 }
@@ -219,16 +202,18 @@ body > header > nav > a:hover {
     color: #d1d1d1 !important;
 }
 
+/* 修改小屏幕下导航栏的样式 */
 @media (max-width: 768px) {
     body > header > nav {
-        flex-wrap: wrap !important;
+        flex-wrap: nowrap !important; /* 避免换行 */
         justify-content: center !important;
+        overflow-x: auto !important; /* 添加水平滚动条 */
     }
 
     body > header > nav > a:first-child {
-        flex-basis: 100% !important;
-        text-align: center !important;
-        margin-bottom: 10px !important;
+        flex-basis: auto !important;
+        text-align: left !important;
+        margin-bottom: 0 !important;
     }
 }
 
