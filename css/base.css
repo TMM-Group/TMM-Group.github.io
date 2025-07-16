@@ -52,7 +52,7 @@ kbd:has(kbd) {
 .Banner {
   list-style: none;
   display: flex;
-  flex-flow: row-reverse wrap-reverse;
+  flex-flow: row nowrap;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -61,33 +61,27 @@ kbd:has(kbd) {
 
 
 
+/*
   .Banner-item:nth-child(1) {
     order: 5;
   }
-
-
 
   .Banner-item:nth-child(2) {
     order: 4;
   }
 
-
-
   .Banner-item:nth-child(3) {
     order: 3;
   }
-
-
 
   .Banner-item:nth-child(4) {
     order: 2;
   }
 
-
-
   .Banner-item:nth-child(5) {
     order: 1;
   }
+*/
 
 
 
