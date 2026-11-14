@@ -31,7 +31,7 @@
         {
           "id": "yutong-li",
           "name": "Yutong Li",
-          "image": "team/liyutong.jpg",
+          "image": "team/liyutong-white.png",
           "description": "Ferroelectricity, Machine learning potentials"
         },
         {
@@ -73,7 +73,7 @@
         {
           "id": "tao-hu",
           "name": "Tao Hu",
-          "image": "team/hutao.jpg",
+          "image": "team/hutao-white.png",
           "description": "PhD studies at Northeast Normal University"
         }
       ]

@@ -23,4 +23,13 @@ Repaired: desktop mobile-menu button visibility; hero background seam with an ed
 Independent read-only review found the chemical-inline issue, legacy software IDs and native reset timing; all were fixed and rechecked. Initial publication count is derived from data. Native content/link tests pass (3/3), JS syntax check passes. External publication URLs were preserved, not exhaustively retested against publishers.
 
 ## Boundaries
-Main and the GitHub Pages configuration are unchanged. The hosted review copy is a separate private Site. Third-party software and the separate DieDatabase application are linked, not modified. The owner must approve before any later merge to main.
+The hosted review copy is a separate private Site. Third-party software and the separate DieDatabase application are linked, not modified. The initial review left main unchanged; the owner subsequently approved production publication on 2026-11-15.
+
+## Approved revisions and launch checks
+
+- Removed the large intro banners from the five inner pages, enlarged and unified navigation links, and removed the Join Us outline.
+- Removed all per-paper topic captions while retaining publication filtering.
+- Top-aligned portraits preserve complete heads. PhD, master's and alumni images now share a four-column desktop grid: 279 × 348.75 px at a 1440 px viewport. At 390 px, all three groups use 157.5 px-wide images in two columns. Gang Tang's profile remains larger.
+- Inspected the three white-background portrait edits on the rendered site. Original image assets remain in the repository. Dong An's outer scanned border is hidden with a 1% display crop.
+- Rebuilt all pages; 3/3 content, local link and legacy-anchor tests passed, as did JavaScript syntax and whitespace checks. Latest desktop and mobile checks found no horizontal overflow or console errors.
+- Before publication, backed up the previous main commit `73018c4d656ce8e71ec7f06ddd2a17b718a0853d` to `codex/backup-main-before-redesign-2026-11-15`.
