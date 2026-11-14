@@ -19,7 +19,7 @@ if (menuButton && navigation) {
       closeMenu(); menuButton.focus();
     }
   });
-  window.matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+  window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
 }
 
 const form = document.querySelector('#publication-filters');

@@ -22,7 +22,7 @@ def img(src,alt,cls='',eager=False):
 
 def navigation(current):
     items=[('research','Research','/research/'),('team','People','/team/'),('papers','Publications','/papers/'),('codes','Software','/codes/'),('join-us','Join Us','/join-us/')]
-    links=''.join(f'<a href="{url}" {"aria-current=page" if key==current else ""} class="{"nav-join" if key=="join-us" else ""}">{label}</a>' for key,label,url in items)
+    links=''.join(f'<a href="{url}" {"aria-current=page" if key==current else ""}>{label}</a>' for key,label,url in items)
     return f'''<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container nav-shell"><a class="brand" href="/" aria-label="TMM Group home">TMM<span class="brand-dot">.</span> <span class="brand-light">GROUP</span></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button><nav id="navigation" class="main-nav" aria-label="Main navigation">{links}</nav></div></header>'''
 
 def footer():
@@ -37,6 +37,10 @@ def page(path,title,description,body,current='',noindex=False):
 
 def heading(title,description,extra=''):
     return f'<section class="page-intro"><div class="container"><h1>{title}</h1><p class="intro-copy">{description}</p>{extra}</div></section>'
+
+def compact_heading(title,extra=''):
+    title_html=f'<h1 class="sr-only">{title}</h1>'
+    return f'<div class="container page-tools">{title_html}{extra}</div>' if extra else title_html
 
 def section_heading(title,subtitle='',url='',label='Explore'):
     return f'<div class="section-heading"><div><h2>{title}</h2>{f"<p>{subtitle}</p>" if subtitle else ""}</div>{link(url,label) if url else ""}</div>'
@@ -67,7 +71,7 @@ def research_page():
         refs=''.join(f'<li>{link(a["link"],a["title"])}</li>' for a in r['references'])
         sections.append(f'<section class="research-detail" id="{r["id"]}"><div class="research-overview"><span class="section-number">0{i+1}</span><h2>{r["title"]}</h2><p class="lead">{r["summary"]}</p><figure>{img(r["image"],r["title"]+" research figure")}<figcaption>Research from the TMM Group</figcaption></figure></div><div class="research-body">{paragraphs}<h3>Related publications</h3><ul class="reference-list">{refs}</ul></div></section>')
     jump='<nav class="jump-links" aria-label="Research topics">'+''.join(f'<a href="#{r["id"]}">{r["title"]}</a>' for r in research)+'</nav>'
-    body=heading('Research','We combine first-principles calculations, data-driven approaches and machine learning to understand and discover functional materials.',jump)+'<div class="container">'+''.join(sections)+'</div>'+invitation()
+    body=compact_heading('Research',jump)+'<div class="container">'+''.join(sections)+'</div>'+invitation()
     page('research/index.html','Research','Photovoltaics, ferroics, dielectric materials and machine learning research in the TMM Group.',body,'research')
 
 def team_page():
@@ -77,14 +81,14 @@ def team_page():
         cards=''.join(f'<article class="person" id="{p["id"]}">{img(p["image"],p["name"])}<h3>{p["name"]}</h3><p>{p["description"]}</p></article>' for p in g['people'])
         groups.append(f'<section class="people-section" id="{g["id"]}">{section_heading(g["title"])}<div class="people-grid {"alumni-grid" if g["id"]=="Alumni" else ""}">{cards}</div></section>')
     jump='<nav class="jump-links" aria-label="People groups">'+''.join(f'<a href="#{g["id"]}">{g["title"]}</a>' for g in people['groups'])+'</nav>'
-    page('team/index.html','People','Meet Gang Tang and the students and alumni of the Tang Materials Modeling Group.',heading('Our people','The researchers behind our science.',jump)+'<div class="container">'+pi+''.join(groups)+'</div>'+invitation(),'team')
+    page('team/index.html','People','Meet Gang Tang and the students and alumni of the Tang Materials Modeling Group.',compact_heading('Our people',jump)+'<div class="container">'+pi+''.join(groups)+'</div>'+invitation(),'team')
 
 def paper_row(p):
     searchable=text(p['title']+' '+p['authors']+' '+p['citation'])
     title=link(p['link'],p['title'],'heading-link') if p['link'] else p['title']
     notes=f'<span class="paper-notes">{p["notes"]}</span>' if p['notes'] else ''
     status='<span class="status">Accepted</span>' if p['status']=='accepted' else ''
-    return f'<article class="publication" id="paper-{p["id"]}" data-publication data-year="{p["year"]}" data-topics="{e("|".join(p["topics"]))}" data-search="{e(searchable)}"><span class="pub-number">{p["id"]:02}</span><div><h3>{title}</h3><p class="authors">{p["authors"]}</p><p class="citation">{p["citation"]} {status}</p>{notes}<p class="topic-text">{" · ".join(p["topics"])}</p></div></article>'
+    return f'<article class="publication" id="paper-{p["id"]}" data-publication data-year="{p["year"]}" data-topics="{e("|".join(p["topics"]))}" data-search="{e(searchable)}"><span class="pub-number">{p["id"]:02}</span><div><h3>{title}</h3><p class="authors">{p["authors"]}</p><p class="citation">{p["citation"]} {status}</p>{notes}</div></article>'
 
 def papers_page():
     published=publications['published'];years=list(dict.fromkeys(p['year'] for p in published));topics=sorted(set(t for p in published for t in p['topics']))
@@ -95,7 +99,7 @@ def papers_page():
     groups=''.join(f'<section class="publication-year" id="{y}" data-year-group><h2>{y}</h2>'+''.join(paper_row(p) for p in published if p['year']==y)+'</section>' for y in years)
     empty='<div class="empty-state" id="empty-results" hidden><h2>No matching publications</h2><p>Try a different keyword, year or research topic.</p><button class="button" id="clear-filters" type="button">Clear filters</button></div>'
     manuscripts=''.join(f'<li><span class="status">{m["status"].capitalize()}</span><p>{m["html"]}</p></li>' for m in publications['manuscripts'])
-    body=heading('Publications','Research in materials physics, from fundamental understanding to computational discovery.',link(SCHOLAR,'View Google Scholar'))+f'<div class="container publications-container">{filters}<div class="publication-layout">{nav}<div>{groups}{empty}<section id="Submitted" class="manuscripts"><h2>Manuscripts in progress</h2><p class="muted">Submitted and in-preparation work, listed separately from published and accepted papers.</p><ul>{manuscripts}</ul></section></div></div></div>'
+    body=compact_heading('Publications',link(SCHOLAR,'View Google Scholar'))+f'<div class="container publications-container">{filters}<div class="publication-layout">{nav}<div>{groups}{empty}<section id="Submitted" class="manuscripts"><h2>Manuscripts in progress</h2><p class="muted">Submitted and in-preparation work, listed separately from published and accepted papers.</p><ul>{manuscripts}</ul></section></div></div></div>'
     page('papers/index.html','Publications','Browse and search TMM Group publications by year, author and research topic.',body,'papers')
 
 def software_page():
@@ -103,11 +107,11 @@ def software_page():
     for i,s in enumerate(software):
         actions=''.join(link(a['url'],'Explore database' if a['label']=='Link' else a['label'],'button' if j==0 else 'text-link') for j,a in enumerate(s['links']))
         sections.append(f'<section class="software-detail" id="{s["id"]}"><span class="legacy-anchor" id="{i+1}. {s["id"]}" aria-hidden="true"></span><div class="software-visual">{img(s["image"],s["name"]+" interface and workflow")}</div><div><span class="section-number">0{i+1} / {"Database" if i==1 else "Open-source software"}</span><h2>{s["name"]}</h2><p class="lead">{s["summary"]}</p><p>{s["description"]}</p><div class="button-row">{actions}</div></div></section>')
-    body=heading('Software &amp; data','Tools we develop and contribute to, helping researchers manage, analyse and interpret materials simulations.',link('https://github.com/TMM-Group','TMM Group on GitHub'))+'<div class="container">'+''.join(sections)+'</div>'+invitation()
+    body=compact_heading('Software &amp; data',link('https://github.com/TMM-Group','TMM Group on GitHub'))+'<div class="container">'+''.join(sections)+'</div>'+invitation()
     page('codes/index.html','Software & Data','Explore MLRAP, DieDatabase and NepTrainKit: open resources for materials research.',body,'codes')
 
 def join_page():
-    body=heading('Join our group','Bring your curiosity. Help us understand what materials can do.')+f'''<section class="section"><div class="container join-layout"><div><h2>Study with us</h2><p class="lead">We offer 1–2 master’s positions each year in condensed matter physics.</p><p>Our work brings together first-principles calculations, computational materials physics and machine learning. Explore our research and recent publications to learn more about the questions we investigate.</p><div class="inline-links">{link('/research/','Our research')}{link('/papers/','Recent publications')}</div><div class="join-chinese" lang="zh-CN"><h3>欢迎加入我们</h3><p>课题组每年招收 1–2 名凝聚态物理方向硕士研究生。欢迎对计算材料物理与机器学习感兴趣的同学联系唐刚老师，了解研究方向和招生详情。</p></div></div><aside class="contact-panel"><span class="section-number">Get in touch</span><h2>Gang Tang</h2><p>Associate Professor<br>Beijing Institute of Technology</p><a class="contact-email" href="mailto:gtang@bit.edu.cn">gtang@bit.edu.cn</a><p>Please get in touch by email for details about current opportunities.</p>{link('mailto:gtang@bit.edu.cn','Write an email','button')}{link(PROFILE,'University profile')}</aside></div></section><section class="section section-tint"><div class="container join-bottom"><h2>Get to know TMM.</h2><p>Meet the people and explore the open tools behind our research.</p><div class="inline-links">{link('/team/','Meet the team')}{link('/codes/','Software & data')}</div></div></section>'''
+    body=compact_heading('Join our group')+f'''<section class="section page-content-start"><div class="container join-layout"><div><h2>Study with us</h2><p class="lead">We offer 1–2 master’s positions each year in condensed matter physics.</p><p>Our work brings together first-principles calculations, computational materials physics and machine learning. Explore our research and recent publications to learn more about the questions we investigate.</p><div class="inline-links">{link('/research/','Our research')}{link('/papers/','Recent publications')}</div><div class="join-chinese" lang="zh-CN"><h3>欢迎加入我们</h3><p>课题组每年招收 1–2 名凝聚态物理方向硕士研究生。欢迎对计算材料物理与机器学习感兴趣的同学联系唐刚老师，了解研究方向和招生详情。</p></div></div><aside class="contact-panel"><span class="section-number">Get in touch</span><h2>Gang Tang</h2><p>Associate Professor<br>Beijing Institute of Technology</p><a class="contact-email" href="mailto:gtang@bit.edu.cn">gtang@bit.edu.cn</a><p>Please get in touch by email for details about current opportunities.</p>{link('mailto:gtang@bit.edu.cn','Write an email','button')}{link(PROFILE,'University profile')}</aside></div></section><section class="section section-tint"><div class="container join-bottom"><h2>Get to know TMM.</h2><p>Meet the people and explore the open tools behind our research.</p><div class="inline-links">{link('/team/','Meet the team')}{link('/codes/','Software & data')}</div></div></section>'''
     page('join-us/index.html','Join Us','Master’s opportunities in condensed matter physics and computational materials research at TMM Group, Beijing Institute of Technology.',body,'join-us')
 
 def utilities():
