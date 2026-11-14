@@ -1,0 +1,49 @@
+[
+  {
+    "id": "mlrap",
+    "name": "MLRAP",
+    "image": "codes/mlrap.png",
+    "summary": "A machine learning workflow for structure–property relationships.",
+    "description": "MLRAP (Machine Learning Regression Analysis Package) is designed to support materials scientists in building regression models and uncovering structure-property relationships. This software provides a user-friendly command-line interface, automating the machine learning workflow in Python. It includes modules for data preprocessing, feature engineering, model evaluation, optimization, and interpretation. By streamlining these processes, MLRAP significantly reduces the workload for users and improves the efficiency of materials research and development.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/TMM-Group/mlrap"
+      },
+      {
+        "label": "Paper",
+        "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2024/MH/D4MH00526K"
+      }
+    ]
+  },
+  {
+    "id": "DieDatabase",
+    "name": "DieDatabase",
+    "image": "codes/DieDatabase.png",
+    "summary": "Predicted dielectric properties for 4,341 compounds.",
+    "description": "DieDatabase is a database containing dielectric tensors predicted by equivariant graph neural network models, and dielectric breakdown strengths calculated by combining phenomenological models with pretrained machine learning interatomic potential models, for 4,341 compounds.",
+    "links": [
+      {
+        "label": "Link",
+        "url": "https://tmm-group.github.io/diedatabase/"
+      }
+    ]
+  },
+  {
+    "id": "NepTrainKit",
+    "name": "NepTrainKit",
+    "image": "codes/neptrainkit.png",
+    "summary": "Visualize and curate training datasets for neuroevolution potentials.",
+    "description": "NepTrainKit is a Python package for visualizing and manipulating training datasets for NEP.",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/aboys-cb/NepTrainKit"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2506.01868"
+      }
+    ]
+  }
+]

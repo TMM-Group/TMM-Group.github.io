@@ -1,0 +1,701 @@
+{
+  "published": [
+    {
+      "id": 50,
+      "year": "2026",
+      "title": "Microscopic origin of optical-phonon-dominated lattice thermal transport in A-site ordered X<sub>6</sub>N<sub>2</sub>SbBi (X = Mg, Ca, Sr) double antiperovskites",
+      "authors": "Xiefei Song, <strong>Gang Tang</strong>*, Wenzhong Li, Yan Cai, Yuqiong Shan, Xiangjie Chen, Yao He*, Hai-Ping Cheng",
+      "citation": "<em>Materials Today Physics</em> 2026, accepted.",
+      "notes": "",
+      "link": "",
+      "status": "accepted",
+      "topics": [
+        "Thermal transport",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 49,
+      "year": "2026",
+      "title": "Giant In-Plane Thermal Conductivity Anisotropy in Hafnium Pentatelluride Induced by Bonding Inhomogeneity",
+      "authors": "Qi Ren, Yongheng Li, Peng Zhu, Hiroshi Fukui, Taiushun Manjo, Daisuke Ishikawa, Alfred Q.R. Baron, Bonan Zhua, <strong>Gang Tang</strong>*, Zhiwei Wang*, and Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2026, 114, 084302.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/51lm-kcz6",
+      "status": "published",
+      "topics": [
+        "Thermal transport"
+      ]
+    },
+    {
+      "id": 48,
+      "year": "2026",
+      "title": "Carrier mobility trends in nitride perovskites: First-principles insights and phenomenological models",
+      "authors": "Yutong Li, Dong An, Bonan Zhu*, Yuan Huang*, <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Review B</em> 2026, 114, 045206.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/cz5p-mh12",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 47,
+      "year": "2026",
+      "title": "B-site Co-doping-Induced Symmetry Breaking for Enhanced Optoelectronic Properties in Vacancy-Ordered Double Perovskites",
+      "authors": "Hao Qu, Mingjun Li, Jiangyu Yang, Yunyi Zhou, Yuhang Li, Shichang Li*, Dengfeng Li, <strong>Gang Tang</strong>*, and Chunbao Feng*",
+      "citation": "<em>Journal of Materials Chemistry A</em> 2026, 14, 17197–17206.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/D5TA09254J",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 46,
+      "year": "2026",
+      "title": "Controlling the competition between polar and antipolar structures by rumpling in Ruddlesden–Popper layered nitride La<sub>3</sub>W<sub>2</sub>N<sub>7</sub>",
+      "authors": "Zun-Yi Deng, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Applied Physics Letters</em> 2026, 128, 072902.",
+      "notes": "",
+      "link": "https://doi.org/10.1063/5.0312314",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 45,
+      "year": "2026",
+      "title": "Tunable Polarization and Band Gap in Ferroelectric Nitride Perovskites via Superlattice Design",
+      "authors": "Yixin Jiao, Lixiang Rao, Zuolong Jia, Xiao Xie, Zunyi Deng, Bonan Zhu, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2026, 113, 134105.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/ddls-1138",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 44,
+      "year": "2026",
+      "title": "Role of strong anisotropy and high-order anharmonicity in the phonon thermal transport of pentagonal PdX2 (X = S, Se, Te) monolayers",
+      "authors": "Xiefei Song, <strong>Gang Tang</strong>*, Wenzhong Li, Mengran Qin, Ning Wang, and Yao He*",
+      "citation": "<em>Physical Review B</em> 2026, 113, 035430.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/xrtb-bh7t",
+      "status": "published",
+      "topics": [
+        "Thermal transport",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 43,
+      "year": "2026",
+      "title": "Tailoring Band Alignment toward Type-I to Type-II Transition via Composition Engineering in Layered Perovskite Heterostructures",
+      "authors": "Chunbao Feng*, Mingjun Li, Changhe Wu, Hao Qu, Jiangyu Yang, Yunyi Zhou, Shichang Li*, Dengfeng Li, <strong>Gang Tang</strong>*",
+      "citation": "<em>Journal of Physical Chemistry Letters</em> 2026, 17, 868–876.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acs.jpclett.5c03597",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 42,
+      "year": "2026",
+      "title": "Unveiling Stable and Efficient Antiperovskite Semiconductors via High-Throughput Computation and Interpretable Machine Learning",
+      "authors": "Hao Qu#, Tao Hu#, Mingjun Li, Jiangyu Yang, Yunyi Zhou, Shichang Li, Dengfeng Li*, <strong>Gang Tang</strong>*, and Chunbao Feng*",
+      "citation": "<em>Chinese Physics B</em> 2026, 35, 046102.",
+      "notes": "",
+      "link": "https://iopscience.iop.org/article/10.1088/1674-1056/ae24e7",
+      "status": "published",
+      "topics": [
+        "Electronic & optical",
+        "Machine learning & tools"
+      ]
+    },
+    {
+      "id": 41,
+      "year": "2025",
+      "title": "Theoretical Investigation of Non-centrosymmetric Ruddlesen–Popper Germanium Perovskites Cs<sub>2</sub>GeX<sub>4</sub> (X = Cl, Br and I) for Second Harmonic Generation",
+      "authors": "Zun-Yi Deng, Qixiang Yin, Lixiang Rao, Qiyi Zhao*, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2025, 112, 184113.",
+      "notes": "",
+      "link": "https://journals.aps.org/prb/abstract/10.1103/nsn4-35kg",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 40,
+      "year": "2025",
+      "title": "Effect of four-phonon scattering and strong anharmonicity on the thermal conductivity of the antiperovskite derivatives Ba<sub>3</sub>BiX<sub>3</sub> (X = Br, I)",
+      "authors": "Xiaohan Liu, Yongheng Li, Yu Wu, Jingtong Zhang, Xingang Jiang, Qi Ren, Bonan Zhu, Jiawang Hong, and <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Review B</em> 2025, 112, 134303.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/47sd-6h1l",
+      "status": "published",
+      "topics": [
+        "Thermal transport"
+      ]
+    },
+    {
+      "id": 39,
+      "year": "2025",
+      "title": "Noncollinear antiferroelectricity with 𝐶3 polarization rotation: Ferroic domain configurations",
+      "authors": "Peng Lv, Xueyun Wang*, <strong>Gang Tang</strong>*, Changqing Guo, Yongheng Li, Yanyu Liu, and Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2025, 112, 144103.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/94vs-mr7q",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 38,
+      "year": "2025",
+      "title": "NepTrain and NepTrainKit: Automated Active Learning and Visualization Toolkit for Neuroevolution Potentials",
+      "authors": "Chengbing Chen#, Yutong Li#, Rui Zhao∗, Zhoulin Liu, Zheyong Fan, <strong>Gang Tang</strong>*, Zhiyong Wang∗",
+      "citation": "<em>Computer Physics Communications</em> 2025, 317, 109859.",
+      "notes": "",
+      "link": "https://doi.org/10.1016/j.cpc.2025.109859",
+      "status": "published",
+      "topics": [
+        "Machine learning & tools"
+      ]
+    },
+    {
+      "id": 37,
+      "year": "2025",
+      "title": "Theoretical Investigation of Chalcogenide Halide ScXY (X = S, Se, Te; Y = Cl, Br, I) Monolayers as Gate Dielectrics for 2D Field-Effect Transistors",
+      "authors": "Huan Liu, Lixiang Rao*, Junjie Qi*, <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Review Applied</em> 2025, 24, 034017.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/zm12-3qkz",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 36,
+      "year": "2025",
+      "title": "Ferroelectric Polarization and Piezoelectric Properties in Orthorhombic Zn<sub>3</sub>WN<sub>4</sub> and Zn<sub>3</sub>MoN<sub>4</sub>: An Atomic Sublattice Decomposition",
+      "authors": "Siyu Song, Yuanhang Yan, Shihao Wang, Yutong Li, Shuhan Li, Menghao Wu, Jiawang Hong, <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Review B</em> 2025, 112, 024107.",
+      "notes": "",
+      "link": "https://doi.org/10.1103/p9zn-s3v8",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 35,
+      "year": "2025",
+      "title": "Enhanced Charge Transport in A-site Ordered Perovskite Derivatives A2A'Bi<sub>2</sub>I<sub>9</sub> (A = Cs; A' = Ag, Cu): A First-Principles Study",
+      "authors": "Shuhan Li, Siyu Song, Peng Lv*, Shihao Wang, Jiawang Hong, <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Chemistry Chemical Physics</em> 2025, 27, 14948-14956.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/D5CP00956A",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 34,
+      "year": "2025",
+      "title": "Unveiling the large polarons in antiperovskite X<sub>3</sub>NA (X2+ = Mg2+, Ca2+, Sr2+; A3− = P3−, As3−, Sb3−, Bi3−)",
+      "authors": "Zhengyu Xu, Ruogu Zheng, Qingbo Wang, Hai Wang*, <strong>Gang Tang</strong>*, Hongxia Zhong*",
+      "citation": "<em>Applied Physics Letters</em> 2025, 126, 262112.",
+      "notes": "",
+      "link": "https://doi.org/10.1063/5.0271518",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 33,
+      "year": "2025",
+      "title": "Theoretical Investigation of the Electronic Property Trends of Antiperovskites with A site Tetrahedral Groups",
+      "authors": "Zhengyu Xu, Hongxia Zhong*, Ruogu Zheng, Xiaoying Wan, Qingbo Wang, Hai Wang, and <strong>Gang Tang</strong>*",
+      "citation": "<em>Journal of Colloid and Interface Science\r\n</em> 2025, 697, 137889.",
+      "notes": "",
+      "link": "https://doi.org/10.1016/j.jcis.2025.137889",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 32,
+      "year": "2025",
+      "title": "Ideal Strength and Deformation Mechanism in Inorganic Halide Double Perovskite Cs<sub>2</sub>AgBiBr<sub>6</sub>",
+      "authors": "Xiaohan Liu, Yabin Ren, Shihao Wang, Yingzhuo Lun, Bo Yang*, Bonan Zhu, Jiawang Hong*, <strong>Gang Tang</strong>*",
+      "citation": "<em>Physical Chemistry Chemical Physics</em> 2025, 27, 10548-10555.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/D4CP04697H",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 31,
+      "year": "2025",
+      "title": "First-Principles Investigation of Auxetic Piezoelectric Effect in Nitride Perovskites",
+      "authors": "Yanting Peng, Zunyi Deng, Siyu Song, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Chemistry Chemical Physics</em> 2025, 27, 10652-10659.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/D5CP01148E",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 30,
+      "year": "2025",
+      "title": "Carrier Dynamics of facet-Dependent Heterogeneous Interfaces in High-Performance Perovskite Solar Cells",
+      "authors": "Pengxiang Zhang, Cheng Zhu*, Wenli Su, Shihao Wang, Zipeng Xu, Shanshan Wang, Mingxuan Qi, Xiaotian Bao, Fenglong Kang, Qi Chen, Xinfeng Liu, <strong>Gang Tang</strong>* and Wenkai Zhang*",
+      "citation": "<em>Advanced Functional Materials</em> 2025, 202422783.",
+      "notes": "",
+      "link": "https://doi.org/10.1002/adfm.202422783",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 29,
+      "year": "2025",
+      "title": "Highly Deformable van der Waals Chalcogenides with Superior Thermoelectric Performance from Interpretable Machine Learning",
+      "authors": "Qi Ren, Bonan Zhu, <strong>Gang Tang</strong>*, and Jiawang Hong*",
+      "citation": "<em>Small</em> 2025, 202412745.",
+      "notes": "",
+      "link": "https://doi.org/10.1002/smll.202412745",
+      "status": "published",
+      "topics": [
+        "Thermal transport",
+        "Machine learning & tools"
+      ]
+    },
+    {
+      "id": 28,
+      "year": "2025",
+      "title": "First-Principles Insights into Monolayer Bi<sub>2</sub>XO<sub>5</sub> (X = Se, Te) as High-<i>k</i> Gate Dielectrics for 2D Electronics",
+      "authors": "Huan Liu, Lixiang Rao*, Junjie Qi*, <strong>Gang Tang</strong>*",
+      "citation": "<em>Applied Physics Letters</em> 2025, 126, 072901.",
+      "notes": "",
+      "link": "https://doi.org/10.1063/5.0242581",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 27,
+      "year": "2025",
+      "title": "Pressure-Dependent Optoelectronic Properties of Antiperovskite Derivatives X<sub>3</sub>AsCl<sub>3</sub> (X = Mg, Ca, Sr, Ba): A First-Principles Study",
+      "authors": "Tao Hu, Changhe Wu, Mingjun Li, Hao Qu, Xin Luo, Yihao Hou, Shichang Li, Shengnan Duan, Dengfeng Li*, <strong>Gang Tang</strong>*, Chunbao Feng*",
+      "citation": "<em>Physical Chemistry Chemical Physics</em> 2025, 27, 4144-4151.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/D4CP03619K",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 26,
+      "year": "2024",
+      "title": "Insight into the origins of mobility deterioration in indium phosphide-based epitaxial layer",
+      "authors": "Si Li, Yongkang Jiang, Hua Wei*, Hanbao Liu, Xiaoda Ye, Xingkai Zhao, Xiangting Chen, Jiayun Deng, Jie Yang, Chong Wang, Tingfang Liu, Tinglong Liu, <strong>Gang Tang</strong>*, Shikun Pu, Qingju Liu, Feng Hui, Feng Qiu*",
+      "citation": "<em>Materials Today Electronics</em> 2024, 10, 100121.",
+      "notes": "",
+      "link": "https://doi.org/10.1016/j.mtelec.2024.100121",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 25,
+      "year": "2024",
+      "title": "Designing antiperovskite derivatives <em>via</em> atomic-position splitting for photovoltaic applications",
+      "authors": "<strong>Gang Tang</strong>*, Xiaohan Liu, Shihao Wang, Tao Hu, Chunbao Feng, Cheng Zhu, Bonan Zhu, Jiawang Hong*",
+      "citation": "<em>Materials Horizons</em> 2024, 11, 5320-5330.",
+      "notes": "",
+      "link": "https://pubs.rsc.org/en/Content/ArticleLanding/2024/MH/D4MH00526K",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 24,
+      "year": "2024",
+      "title": "First-principles study of ferroelectric, dielectric, and piezoelectric properties in the nitride perovskites Ce⁢B⁢N<sub>3</sub>. (B=Nb, Ta)",
+      "authors": "Xian Zi, Zunyi Deng, Lixiang Rao, Yongheng Li, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2024, 109, 115125.",
+      "notes": "",
+      "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.115125",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 23,
+      "year": "2024",
+      "title": "Machine-learning-assisted discovery of 212-Zintl-phase compounds with ultra-low lattice thermal conductivity",
+      "authors": "Qi Ren, Dali Chen, Lixiang Rao, Yingzhuo Lun, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Journal of Materials Chemistry A</em> 2024, 12, 1157-1165.",
+      "notes": "",
+      "link": "https://pubs.rsc.org/en/content/articlelanding/2024/ta/d3ta05690b",
+      "status": "published",
+      "topics": [
+        "Thermal transport",
+        "Machine learning & tools"
+      ]
+    },
+    {
+      "id": 22,
+      "year": "2024",
+      "title": "Structural, Electronic, Optical, and Mechanical Properties of Cu(I)Au(III)-Based Double Perovskites: A First-Principles Study",
+      "authors": "Chunbao Feng, Xin Luo, Qing Zhao, Changhe Wu, Tao Hu, Shichang Li, Shengnan Duan*, <strong>Gang Tang</strong>*, Gang Zhang*, Dengfeng Li*",
+      "citation": "<em>physica status solidi (RRL)-Rapid Research Letters</em> 2024, 18, 2300128.",
+      "notes": "",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pssr.202300128",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 21,
+      "year": "2023",
+      "title": "First-principles study of the lattice thermal conductivity of the nitride perovskite LaWN<sub>3</sub>",
+      "authors": "Qi Ren, Yongheng Li, Yingzhuo Lun, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2023, 107, 125206.",
+      "notes": "",
+      "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.125206",
+      "status": "published",
+      "topics": [
+        "Thermal transport"
+      ]
+    },
+    {
+      "id": 20,
+      "year": "2023",
+      "title": "First-principles insights into the ferroelectric, dielectric, and piezoelectric properties of polar <i>Pca</i><sub>21</sub> SbN",
+      "authors": "Shihao Wang, Zunyi Deng, Shuhan Li, Peng Lv, Jing Wang, Xueyun Wang, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review B</em> 2023, 108, 174110.",
+      "notes": "",
+      "link": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.174110",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 19,
+      "year": "2023",
+      "title": "Broken-gap type-III band alignment in monolayer halide perovskite/antiperovskite oxide van der Waals heterojunctions",
+      "authors": "Hongxia Zhong, Zhengyu Xu, Chunbao Feng, Xiaoying Wan, Jiahui Li, Hai Wang, <strong>Gang Tang</strong>*",
+      "citation": "<em>Nanoscale</em> 2023, 15, 11560-11568.",
+      "notes": "",
+      "link": "https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00676j",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 18,
+      "year": "2023",
+      "title": "Electronic and mechanical properties of ScXI (X=S,Se) monolayers and their heterostructures",
+      "authors": "Lixiang Rao, <strong>Gang Tang</strong>*, Jiawang Hong*",
+      "citation": "<em>Physical Review Materials</em> 2023, 7, 014010.",
+      "notes": "",
+      "link": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.7.014010",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 17,
+      "year": "2023",
+      "title": "Pressure-dependent electronic, optical, and mechanical properties of antiperovskite X<sub>3</sub>NP (X = Ca, Mg): A first-principles study",
+      "authors": "Chunbao Feng, Changhe Wu, Xin Luo, Tao Hu, Fanchuan Chen, Shichang Li, Shengnan Duan, Wenjie Hou, Dengfeng Li*, <strong>Gang Tang</strong>*, Gang Zhang*",
+      "citation": "<em>Journal of Semiconductors</em> 2023, 44, 102101.",
+      "notes": "",
+      "link": "https://www.jos.ac.cn/en/article/id/cb5a439a-dba6-4ad5-9a08-40cba7209f64",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 16,
+      "year": "2022",
+      "title": "Unraveling the Factors Affecting the Mechanical Properties of Halide Perovskites from First-Principles Calculations",
+      "authors": "Shuang Li, Shenggui Zhao*, Huiqi Chu, Yue Gao, Peng Lv, Vei Wang*, <strong>Gang Tang</strong>*, Jiawang Hong",
+      "citation": "<em>Journal of Physical Chemistry C</em> 2022, 126, 4715-4725.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/full/10.1021/acs.jpcc.1c10635",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 15,
+      "year": "2022",
+      "title": "Theoretical Prediction of Mixed-Valence Layered Halide Perovskites Cs<sub>4</sub>M(IV)M(II)<sub>2</sub>X<sub>12</sub> (M = Ge, Sn; X = Cl, Br)",
+      "authors": "Chunbao Feng, Qing Zhao, Changhe Wu, Xin Luo, Shichang Li, Dengfeng Li*, <strong>Gang Tang</strong>*, Gang Zhang*",
+      "citation": "<em>Journal of Physical Chemistry Letters</em> 2022, 13, 1077-1084.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acs.jpclett.1c03719",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 14,
+      "year": "2022",
+      "title": "Ground-state structures, electronic structure, transport properties and optical properties of Ca-based anti-Ruddlesden-Popper phase oxide perovskites",
+      "authors": "Dan Han*, Mao-Hua Du, Menglin Huang, Shizhe Wang, <strong>Gang Tang</strong>*, Thomas Bein, Hubert Ebert",
+      "citation": "<em>Physical Review Materials</em> 2022, 6, 114601.",
+      "notes": "",
+      "link": "https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.6.114601",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 13,
+      "year": "2021",
+      "title": "Improper molecular ferroelectrics with simultaneous ultrahigh pyroelectricity and figures of merit",
+      "authors": "Wenru Li#, <strong>Gang Tang</strong>#, Guangzu Zhang*, Hasnain Mehdi Jafri, Jun Zhou, Di Liu, Yang Liu, Jiesu Wang, Kuijuan Jin, Yongmin Hu, Haoshuang Gu, Zhao Wang, Jiawang Hong*, Houbing Huang*, Long-Qing Chen, Shenglin Jiang, Qing Wang*",
+      "citation": "<em>Science Advances</em> 2021, 7, eabe3068.",
+      "notes": "(<strong>#Equal Contributors</strong>)",
+      "link": "https://www.science.org/doi/10.1126/sciadv.abe3068",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "id": 12,
+      "year": "2021",
+      "title": "Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering",
+      "authors": "Dan Han*, Chunbao Feng, Mao-Hua Du, Tao Zhang, Shizhe Wang, <strong>Gang Tang</strong>*, Thomas Bein, Hubert Ebert",
+      "citation": "<em>Journal of the American Chemical Society</em> 2021, 143, 12369-12379.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/jacs.1c06403",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 11,
+      "year": "2021",
+      "title": "Band-Edge Orbital Engineering of Perovskite Semiconductors for Optoelectronic Applications",
+      "authors": "<strong>Gang Tang</strong>, Philippe Ghosez, Jiawang Hong*",
+      "citation": "<em>Journal of Physical Chemistry Letters</em> 2021, 12, 4227-4239.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acs.jpclett.0c03816",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 10,
+      "year": "2021",
+      "title": "Orbital−energy splitting in Ruddlesden−Popper layered halide perovskites for tunable optoelectronic properties",
+      "authors": "<strong>Gang Tang</strong>, Vei Wang, Yajun Zhang, Philippe Ghosez, Jiawang Hong*",
+      "citation": "<em>Journal of Power Sources</em> 2021, 4514, 230546.",
+      "notes": "",
+      "link": "https://doi.org/10.1016/j.jpowsour.2021.230546",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 9,
+      "year": "2021",
+      "title": "Structure–Composition–Property Relationships in Antiperovskite Nitrides: Guiding a Rational Alloy Design",
+      "authors": "Hongxia Zhong, Chunbao Feng, Hai Wang, Dan Han, Guodong Yu, Wenqi Xiong, Yunhai Li, Mao Yang, <strong>Gang Tang</strong>*, Shengjun Yuan*",
+      "citation": "<em>ACS Applied Materials Interfaces</em> 2021, 13, 48516-48524.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acsami.1c10137",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 8,
+      "year": "2020",
+      "title": "qvasp: A flexible toolkit for VASP users in materials simulations",
+      "authors": "Wencai Yi*, <strong>Gang Tang</strong>*, Xin Chen, Bingchao Yang, Xiaobing Liu*",
+      "citation": "<em>Computer Physics Communications</em> 2020, 257, 107535.",
+      "notes": "",
+      "link": "https://doi.org/10.1016/j.cpc.2020.107535",
+      "status": "published",
+      "topics": [
+        "Machine learning & tools"
+      ]
+    },
+    {
+      "id": 7,
+      "year": "2020",
+      "title": "Type-II Lateral Heterostructures of Monolayer Halide Double Perovskites for Optoelectronic Applications",
+      "authors": "Hongxia Zhong, Mao Yang, <strong>Gang Tang</strong>*, Shengjun Yuan*",
+      "citation": "<em>ACS Energy Letters</em> 2020, 5, 2275-2282.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acsenergylett.0c01046",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 6,
+      "year": "2019",
+      "title": "First-principles study of the structural, electronic, magnetic, and ferroelectric properties of a charge-ordered iron(II)-iron(III) formate framework",
+      "authors": "<strong>Gang Tang</strong>, Wei Ren, Jiawang Hong*, Alessandro Stroppa",
+      "citation": "<em>Journal of Chemical Physics</em> 2019, 151, 124704.",
+      "notes": "",
+      "link": "https://doi.org/10.1063/1.5116343",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 5,
+      "year": "2019",
+      "title": "Designing Two-Dimensional Properties in Three-Dimensional Halide Perovskites via Orbital Engineering",
+      "authors": "<strong>Gang Tang</strong>, Zewen Xiao, Jiawang Hong*",
+      "citation": "<em>Journal of Physical Chemistry Letters</em> 2019, 10, 6688-6694.",
+      "notes": "",
+      "link": "https://pubs.acs.org/doi/10.1021/acs.jpclett.9b02530",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 4,
+      "year": "2018",
+      "title": "Direct tuning of the band gap <em>via</em> electronically-active organic cations and large piezoelectric response in one-dimensional hybrid halides from first-principles",
+      "authors": "<strong>Gang Tang</strong>, Jiawang Hong*",
+      "citation": "<em>Journal of Materials Chemistry C</em> 2018, 6, 7671-7676.",
+      "notes": "",
+      "link": "https://doi.org/10.1039/C8TC02131G",
+      "status": "published",
+      "topics": [
+        "Ferroics & dielectrics",
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 3,
+      "year": "2018",
+      "title": "Layered Halide Double Perovskites Cs<sub>3+n</sub>M(II)<sub>n</sub>Sb<sub>2</sub>X<sub>9+3n</sub> (M = Sn, Ge) for Photovoltaic Applications",
+      "authors": "<strong>Gang Tang</strong>#, Zewen Xiao#, Hideo Hosono, Toshio Kamiya, Daining Fang, Jiawang Hong*",
+      "citation": "<em>Journal of Physical Chemistry Letters</em> 2018, 9, 43-48.",
+      "notes": "(<strong>#Equal Contributors</strong>)",
+      "link": "https://pubs.acs.org/doi/10.1021/acs.jpclett.7b02829",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "id": 2,
+      "year": "2017",
+      "title": "Revealing the role of thiocyanate anion in layered hybrid halide perovskite (CH<sub>3</sub>NH<sub>3</sub>)<sub>2</sub>Pb(SCN)<sub>2</sub>I<sub>2</sub>",
+      "authors": "<strong>Gang Tang</strong>, Chao Yang, Alessandro Stroppa, Daining Fang, Jiawang Hong*",
+      "citation": "<em>Journal of Chemical Physics</em> 2017, 146, 224702.",
+      "notes": "",
+      "link": "https://doi.org/10.1063/1.4984615",
+      "status": "published",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "id": 1,
+      "year": "2015",
+      "title": "Highly Efficient Electron Transport Obtained by Doping PCBM with Graphdiyne in Planar-Heterojunction Perovskite Solar Cells",
+      "authors": "Chaoyang Kuang#, <strong>Gang Tang</strong>#, Tonggang Jiu*, Hui Yang, Huibiao Liu, Bairu Li, Weining Luo, Xiaodong Li, Wenjun Zhang, Fushen Lu, Junfeng Fang*, Yuliang Li*",
+      "citation": "<em>Nano Letters</em> 2015, 15, 2756-2762.",
+      "notes": "(<strong>#Equal Contributors</strong>)",
+      "link": "https://pubs.acs.org/doi/full/10.1021/acs.nanolett.5b00787",
+      "status": "published",
+      "topics": [
+        "Electronic & optical"
+      ]
+    }
+  ],
+  "manuscripts": [
+    {
+      "html": "Recent Advances in Nitride Perovskites, <em>J. Phys. Condensed Matter</em> (submitted, invited review)",
+      "status": "submitted",
+      "topics": [
+        "Materials physics"
+      ]
+    },
+    {
+      "html": "Progress in Antiperovskite Materials for Optoelectronic Applications, <em>Chem. Commun.</em> (submitted, invited review)",
+      "status": "submitted",
+      "topics": [
+        "Electronic & optical"
+      ]
+    },
+    {
+      "html": "Soft-Mode Renormalization Drives Anomalous Lattice Thermal Conductivity Enhancement at the Ferroelectric Phase Transition \r\n  in Chalcohalide Antiperovskite Ag<sub>3</sub>SI <em>Adv. Funct. Mater.</em> (submitted)",
+      "status": "submitted",
+      "topics": [
+        "Thermal transport",
+        "Ferroics & dielectrics"
+      ]
+    },
+    {
+      "html": "Strong Antibonding States and Higher-Order Anharmonicity Govern Ultralow Lattice Thermal Conductivity in LowTemperature γ-Ag<sub>3</sub>SI, \r\n  <em>Nano Lett.</em> (submitted)",
+      "status": "submitted",
+      "topics": [
+        "Thermal transport"
+      ]
+    },
+    {
+      "html": "Univesial Coexistence of Second-Order Jahn-Teller Effect and Antiferrodistortive Distortion in Ferroelectric Nitride Perovskites, <em>Phys. Rev. Lett.</em> (in preparation)",
+      "status": "in preparation",
+      "topics": [
+        "Ferroics & dielectrics"
+      ]
+    }
+  ]
+}
