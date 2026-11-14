@@ -33,7 +33,7 @@ def page(path,title,description,body,current='',noindex=False):
     html=f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>{e(title)} | TMM Group</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{url}"><meta property="og:title" content="{e(title)} | TMM Group"><meta property="og:description" content="{e(description)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}"><meta property="og:image" content="{ORIGIN}/assets/lattice.png"><meta name="theme-color" content="#10243A">{'<meta name="robots" content="noindex">' if noindex else ''}<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/site.css"><script src="/assets/site.js" defer></script></head>
 <body id="top">{navigation(current)}<main id="main">{body}</main>{footer()}</body></html>'''
-    target=ROOT/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_text(html+'\n',encoding='utf-8')
+    target=ROOT/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_text(re.sub(r'[ \t]+\n', '\n', html.replace('\r\n', '\n'))+'\n',encoding='utf-8',newline='\n')
 
 def heading(title,description,extra=''):
     return f'<section class="page-intro"><div class="container"><h1>{title}</h1><p class="intro-copy">{description}</p>{extra}</div></section>'
@@ -115,8 +115,8 @@ def utilities():
     for p in ['categories/index.html','tags/index.html','page/1/index.html']: page(p,'Explore TMM', 'Explore the TMM Group website.',body,noindex=True)
     page('404.html','Page not found','Find the TMM Group page you need.',heading('Page not found','This address may have changed. Let’s get you back to the science.')+f'<section class="section"><div class="container">{link("/","Back to homepage","button")}</div></section>',noindex=True)
     paths=['','research/','team/','papers/','codes/','join-us/']
-    (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{ORIGIN}/{p}</loc></url>' for p in paths)+'</urlset>\n',encoding='utf-8')
-    (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {ORIGIN}/sitemap.xml\n',encoding='utf-8')
+    (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{ORIGIN}/{p}</loc></url>' for p in paths)+'</urlset>\n',encoding='utf-8',newline='\n')
+    (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {ORIGIN}/sitemap.xml\n',encoding='utf-8',newline='\n')
 
 if __name__=='__main__':
     home(); research_page(); team_page(); papers_page(); software_page(); join_page(); utilities()
