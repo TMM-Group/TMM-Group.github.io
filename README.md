@@ -2,6 +2,8 @@
 
 Modern academic website for the Tang Materials Modeling Group. The group owner approved publication on 2026-11-15 after reviewing the redesign.
 
+中文维护说明：[如何更新每个页面、成员照片和论文](docs/maintenance.zh-CN.md)。
+
 ## Edit and build
 
 Content lives in `data/`: publications, research themes, people, and software. HTML strings preserve scientific subscripts, italics and author notes. Shared page templates are in `scripts/build.py`, shared styles and interactions in `assets/`.

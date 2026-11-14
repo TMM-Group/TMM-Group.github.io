@@ -23,3 +23,8 @@
 
 /* Trim the scanned edge of the original photo without retouching the portrait. */
 img[src="/team/andong.png"]{clip-path:inset(1%)}
+
+/* Keep the portrait and caption aligned while trimming extra white photo margins. */
+.portrait-frame{aspect-ratio:4/5;overflow:hidden}
+.portrait-frame img{height:100%}
+#Caidong-Shuang .portrait-frame img{transform:scale(1.15);transform-origin:center top}
