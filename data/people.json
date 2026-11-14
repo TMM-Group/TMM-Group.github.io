@@ -1,0 +1,82 @@
+{
+  "groups": [
+    {
+      "id": "phd-students",
+      "title": "PhD Students",
+      "people": [
+        {
+          "id": "xiaohan-liu",
+          "name": "Xiaohan Liu",
+          "image": "team/liuxiaohan.jpg",
+          "description": "Thermal conductivity, Machine learning potentials"
+        },
+        {
+          "id": "Dong-An",
+          "name": "Dong An",
+          "image": "team/andong.png",
+          "description": "Ferroelectricity, Machine learning potentials"
+        },
+        {
+          "id": "Qianqiu-Liu",
+          "name": "Qianqiu Liu",
+          "image": "team/liuqianqiu.jpg",
+          "description": "Ferroelectricity, Machine learning potentials"
+        }
+      ]
+    },
+    {
+      "id": "masters-students",
+      "title": "Masters Students",
+      "people": [
+        {
+          "id": "yutong-li",
+          "name": "Yutong Li",
+          "image": "team/liyutong.jpg",
+          "description": "Ferroelectricity, Machine learning potentials"
+        },
+        {
+          "id": "shuo-liu",
+          "name": "Shuo Liu",
+          "image": "team/liushuo.jpg",
+          "description": "Ferroelectricity, Machine learning potentials"
+        },
+        {
+          "id": "Caidong-Shuang",
+          "name": "Caidong Shuang",
+          "image": "team/shuangcaidong.jpg",
+          "description": "Ferroelectricity, Machine learning potentials"
+        }
+      ]
+    },
+    {
+      "id": "Alumni",
+      "title": "Alumni: MSc & PhD Graduates",
+      "people": [
+        {
+          "id": "siyu-song",
+          "name": "Siyu Song",
+          "image": "team/songsiyu.jpg",
+          "description": "High School Teacher"
+        },
+        {
+          "id": "shihao-wang",
+          "name": "Shihao Wang",
+          "image": "team/wangshihao.jpg",
+          "description": "PhD studies at Westlake University"
+        },
+        {
+          "id": "shuhan-li",
+          "name": "Shuhan Li",
+          "image": "team/lishuhan.jpg",
+          "description": "High School Teacher"
+        },
+        {
+          "id": "tao-hu",
+          "name": "Tao Hu",
+          "image": "team/hutao.jpg",
+          "description": "PhD studies at Northeast Normal University"
+        }
+      ]
+    }
+  ]
+}

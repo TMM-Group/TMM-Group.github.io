@@ -1,0 +1,6 @@
+__pycache__/
+.qa/
+.superpowers/
+node_modules/
+.openai/
+dist/
