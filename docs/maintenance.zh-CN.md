@@ -18,6 +18,7 @@
 | Join Us 招生内容 | `scripts/build.py` | 搜索 `def join_page()` |
 | 首页介绍、按钮和栏目文案 | `scripts/build.py` | 搜索 `def home()` |
 | 首页精选论文 | `scripts/build.py` | `home()` 中的 `for number,image in ...`，数字对应论文 `id` |
+| 首页钙钛矿示意图 | `assets/perovskite.png` | 当前为青绿配色、深蓝背景图片；换文件名时同步修改 `scripts/build.py` 中的图片路径并重新生成网页 |
 | 导航栏、页脚、邮箱等 | `scripts/build.py` | `navigation()`、`footer()`；邮箱全文搜索 `gtang@bit.edu.cn` |
 | 字号、颜色、间距、头像尺寸 | `assets/site.css` | 修改相应样式；日常更新内容通常不用改 |
 
